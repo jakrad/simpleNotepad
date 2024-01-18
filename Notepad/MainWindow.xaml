@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Notepad"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Notepad" Height="450" Width="800">
     
     <Grid>
         <Menu>
@@ -48,7 +48,7 @@
                  VerticalScrollBarVisibility="Auto" 
                  HorizontalScrollBarVisibility="Auto"
                  TextWrapping="Wrap" 
-                 Margin="0,22,0,0" />
+                 Margin="0,22,0,0" FontFamily="Arial" />
 
     </Grid>
 </Window>

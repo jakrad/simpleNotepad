@@ -55,7 +55,7 @@ namespace Notepad
                 }
             }
 
-            
+
             MainTextBox.Clear();
             isTextChanged = false;
         }
