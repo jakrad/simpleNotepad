@@ -23,7 +23,7 @@ namespace Notepad
         public MainWindow()
         {
             InitializeComponent();
-            Loaded += MainWindow_Loaded;
+            Loaded += MainWindow_Loaded; // add focus to textbox so user can input text as soon as they open the app
         }
 
         private void MainWindow_Loaded(object sender, RoutedEventArgs e)
